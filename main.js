@@ -40,3 +40,24 @@
 
 // const str = 'bvvb';
 // console.log(str.length);
+
+// const arr = [1, 3, 54, 2, 44, 565, 123];
+//   arr.sort(compareNum);
+
+//   function compareNum (a, b) {
+//       return a - b;
+//   }
+// console.log(arr);
+
+let obj = {
+  ivan: 5,
+  stepan: "alaska",
+  petro: 3,
+  misha: {
+    greece: 1,
+    panama: 2,
+  },
+};
+let obj2 = Object.assign({}, obj);
+console.log(obj);
+console.log(obj2);
